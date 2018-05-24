@@ -279,12 +279,13 @@ body:before {
     background: #fff;
     z-index: 900;
 }
-
-body.navhover:before {
-    opacity: 0.95;
-    visibility: visible
-}
-
+/* 宽度在1000px以上生效半透明浮ceng */
+@media(min-width: 1000px){ 
+    body.navhover:before {
+        opacity: 0.95;
+        visibility: visible
+    } 
+ } 
 body.navhover footer>div {
     opacity: 0.1;
     visibility: hidden
@@ -801,7 +802,7 @@ body.h-show {
         -ms-transform: translateX(0);
         -o-transform: translateX(0);
         transform: translateX(0);
-    }
+    } 
     footer.web-footer p>span {
         display: block;
         position: relative;
