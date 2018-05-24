@@ -497,7 +497,7 @@ footer.web-footer p.contact span a {
     color: #000;
 }
 
-footer.web-footer p>span:before {
+/* footer.web-footer p>span:before {
     content: '';
     display: block;
     width: 100%;
@@ -508,7 +508,7 @@ footer.web-footer p>span:before {
     z-index: 1;
     background-color: #333;
     transform: translateX(102%);
-}
+}  */
 
 .index-slider .index-text p span {
     transform: translateX(-203%);
