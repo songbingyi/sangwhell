@@ -2,6 +2,7 @@ import { Title } from '@angular/platform-browser';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 declare var Swiper;
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-home',
@@ -15,6 +16,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
+    $('html,body').removeClass('h-show');
     var swiper = new Swiper('.swiper-container', {
       loop: true,
       effect: 'fade',
@@ -26,5 +28,4 @@ export class HomeComponent implements OnInit {
       },
     });
   }
-
 }

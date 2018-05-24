@@ -1,5 +1,6 @@
 import { Title } from '@angular/platform-browser';
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-about',
@@ -13,6 +14,7 @@ export class AboutComponent implements OnInit {
   }
 
   ngOnInit() {
+    $('html,body').removeClass('h-show');
   }
 
 }

@@ -682,6 +682,12 @@ body.h-hide {
     overflow: hidden;
 }
 
+html.h-show,
+body.h-show {
+    height: initial;
+    overflow: visible;
+}
+
 @keyframes textanm {
     0% {
         transform: translateX(-202%);
