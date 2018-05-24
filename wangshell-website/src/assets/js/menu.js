@@ -1,4 +1,3 @@
-/** @name 右侧导航栏效果 */
 $(function () {
     $('nav').hover(
         function () {
@@ -21,6 +20,8 @@ $(function () {
     $('nav li').click(function () {
         $('header').removeClass('active');
         $('body').removeClass('showmenu');
+        $('nav li').removeClass('active');
+        $(this).addClass('active');
     });
 
     window.addEventListener('orientationchange', function (e) {
