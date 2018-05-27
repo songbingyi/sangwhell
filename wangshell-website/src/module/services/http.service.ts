@@ -1,7 +1,6 @@
 import { OAUTH_GRANT_TYPE } from './../../app/app.global';
 import { Injectable } from "@angular/core";
 import { Http, Response, Headers /*, BaseRequestOptions*/, RequestOptions } from "@angular/http";
-import "rxjs/add/operator/toPromise";
 import { DEVICE_TYPE, DEVICE_VERSION, VERSION_CODE, OAUTH_CLIENT_SECRET, OAUTH_CLIENT_ID, server_get_token } from "../../app/app.global";
 import { appConfig } from '../../app/app.config';
 import { apiConfig } from '../../providers/api.config';
@@ -10,7 +9,7 @@ import { LocalStorageService } from './local-storage.service';
 import { UtilService } from './util.service';
 
 @Injectable()
-export class AppService {
+export class HttpService {
 
   /** @name http请求公共参数配置 */
   commonParams: any = {
@@ -33,7 +32,7 @@ export class AppService {
    * @param forceProduction 是否将此次请求强制为生产环境调用
    * @param forceMock 是否将此次请求强制为mock环境调用
    */
-  httpPost_(route, params, callback, loader: boolean = false, forceProduction?: boolean, forceMock?: boolean) {
+  httpPost(route, params, callback, loader: boolean = false, forceProduction?: boolean, forceMock?: boolean) {
     // headers.append('X-Requested-With', 'XMLHttpRequest');
     let headers = new Headers();
     headers.append("Content-Type", "application/x-www-form-urlencoded");
