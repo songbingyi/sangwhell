@@ -1,0 +1,129 @@
+{
+    "status": {
+        "succeed": "1"
+    },
+    "data": {
+        "banner_list": [
+            {
+                "image": {
+                    "thumb": "http://imgstore.cdn.sogou.com/app/a/100540002/750740.jpg",
+                    "soure": "http://imgstore.cdn.sogou.com/app/a/100540002/750740.jpg"
+                },
+                "link_info": {
+                    "link_route": "",
+                    "link_value": ""
+                },
+                "case_list": [
+                    {
+                        "case_id": "1",
+                        "case_type_info": {
+                            "case_type_id": "1",
+                            "case_type_name": "APP定制开发"
+                        },
+                        "case_small_image": {
+                            "thumb": "https://flipermag.com/wp-content/uploads/2014/03/1394345745_22-640x640.jpeg",
+                            "soure": "https://flipermag.com/wp-content/uploads/2014/03/1394345745_22-640x640.jpeg"
+                        }
+                    },
+                    {
+                        "case_id": "2",
+                        "case_type_info": {
+                            "case_type_id": "2",
+                            "case_type_name": "微信开发"
+                        },
+                        "case_small_image": {
+                            "thumb": "http://img0.imgtn.bdimg.com/it/u=4201715949,2293065985&fm=27&gp=0.jpg",
+                            "soure": "http://img0.imgtn.bdimg.com/it/u=4201715949,2293065985&fm=27&gp=0.jpg"
+                        }
+                    },
+                    {
+                        "case_id": "3",
+                        "case_type_info": {
+                            "case_type_id": "3",
+                            "case_type_name": "微信小程序"
+                        },
+                        "case_small_image": {
+                            "thumb": "https://flipermag.com/wp-content/uploads/2014/03/1394345745_22-640x640.jpeg",
+                            "soure": "https://flipermag.com/wp-content/uploads/2014/03/1394345745_22-640x640.jpeg"
+                        }
+                    },
+                    {
+                        "case_id": "4",
+                        "case_type_info": {
+                            "case_type_id": "4",
+                            "case_type_name": "移动网站开发"
+                        },
+                        "case_small_image": {
+                            "thumb": "https://flipermag.com/wp-content/uploads/2014/03/1394345745_22-640x640.jpeg",
+                            "soure": "https://flipermag.com/wp-content/uploads/2014/03/1394345745_22-640x640.jpeg"
+                        }
+                    }
+                ],
+                "introduction_info": {
+                    "introduction_cn": "前沿的技术、精准的数据，助您的业务落地呈现<br>多年各行业移动商业服务经验，支持您的移动战略部署",
+                    "introduction_en": "Help business be implemented and presented with cutting-edge technology and accurate data<br>Support mobile strategy deployment with years of experience in mobile business services for various industries "
+                }
+            },
+            {
+                "image": {
+                    "thumb": "http://img.zcool.cn/community/01f740564ea3506ac7251c94bb4c53.jpg",
+                    "soure": "http://img.zcool.cn/community/01f740564ea3506ac7251c94bb4c53.jpg"
+                },
+                "link_info": {
+                    "link_route": "",
+                    "link_value": ""
+                },
+                "case_list": [
+                    {
+                        "case_id": "5",
+                        "case_type_info": {
+                            "case_type_id": "5",
+                            "case_type_name": "移动咨询解决方案"
+                        },
+                        "case_small_image": {
+                            "thumb": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg",
+                            "soure": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg"
+                        }
+                    },
+                    {
+                        "case_id": "6",
+                        "case_type_info": {
+                            "case_type_id": "6",
+                            "case_type_name": "开发部署方案可行性"
+                        },
+                        "case_small_image": {
+                            "thumb": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg",
+                            "soure": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg"
+                        }
+                    },
+                    {
+                        "case_id": "7",
+                        "case_type_info": {
+                            "case_type_id": "7",
+                            "case_type_name": "业务分析优化服务"
+                        },
+                        "case_small_image": {
+                            "thumb": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg",
+                            "soure": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg"
+                        }
+                    },
+                    {
+                        "case_id": "8",
+                        "case_type_info": {
+                            "case_type_id": "8",
+                            "case_type_name": "移动/社交技术交流"
+                        },
+                        "case_small_image": {
+                            "thumb": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg",
+                            "soure": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg"
+                        }
+                    }
+                ],
+                "introduction_info": {
+                    "introduction_cn": "利用技术推动业务创新，优化整体架构<br>利用数据分析，发掘业务的可持续性",
+                    "introduction_en": "Promote business innovation and optimize the overall architecture using technology<br>Discover the sustainability of business using data analysis"
+                }
+            }
+        ]
+    }
+}
