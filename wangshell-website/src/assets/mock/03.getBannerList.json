@@ -13,47 +13,31 @@
                     "link_route": "",
                     "link_value": ""
                 },
-                "case_list": [
+                "image_list": [
                     {
-                        "case_id": "1",
-                        "case_type_info": {
-                            "case_type_id": "1",
-                            "case_type_name": "APP定制开发"
-                        },
-                        "case_small_image": {
+                        "title": "APP定制开发",
+                        "image": {
                             "thumb": "https://flipermag.com/wp-content/uploads/2014/03/1394345745_22-640x640.jpeg",
                             "soure": "https://flipermag.com/wp-content/uploads/2014/03/1394345745_22-640x640.jpeg"
                         }
                     },
                     {
-                        "case_id": "2",
-                        "case_type_info": {
-                            "case_type_id": "2",
-                            "case_type_name": "微信开发"
-                        },
-                        "case_small_image": {
+                        "title": "微信开发",
+                        "image": {
                             "thumb": "http://img0.imgtn.bdimg.com/it/u=4201715949,2293065985&fm=27&gp=0.jpg",
                             "soure": "http://img0.imgtn.bdimg.com/it/u=4201715949,2293065985&fm=27&gp=0.jpg"
                         }
                     },
                     {
-                        "case_id": "3",
-                        "case_type_info": {
-                            "case_type_id": "3",
-                            "case_type_name": "微信小程序"
-                        },
-                        "case_small_image": {
+                        "title": "微信小程序",
+                        "image": {
                             "thumb": "https://flipermag.com/wp-content/uploads/2014/03/1394345745_22-640x640.jpeg",
                             "soure": "https://flipermag.com/wp-content/uploads/2014/03/1394345745_22-640x640.jpeg"
                         }
                     },
                     {
-                        "case_id": "4",
-                        "case_type_info": {
-                            "case_type_id": "4",
-                            "case_type_name": "移动网站开发"
-                        },
-                        "case_small_image": {
+                        "title": "移动网站开发",
+                        "image": {
                             "thumb": "https://flipermag.com/wp-content/uploads/2014/03/1394345745_22-640x640.jpeg",
                             "soure": "https://flipermag.com/wp-content/uploads/2014/03/1394345745_22-640x640.jpeg"
                         }
@@ -73,47 +57,31 @@
                     "link_route": "",
                     "link_value": ""
                 },
-                "case_list": [
+                "image_list": [
                     {
-                        "case_id": "5",
-                        "case_type_info": {
-                            "case_type_id": "5",
-                            "case_type_name": "移动咨询解决方案"
-                        },
-                        "case_small_image": {
+                        "title": "移动咨询解决方案",
+                        "image": {
                             "thumb": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg",
                             "soure": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg"
                         }
                     },
                     {
-                        "case_id": "6",
-                        "case_type_info": {
-                            "case_type_id": "6",
-                            "case_type_name": "开发部署方案可行性"
-                        },
-                        "case_small_image": {
+                        "title": "开发部署方案可行性",
+                        "image": {
                             "thumb": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg",
                             "soure": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg"
                         }
                     },
                     {
-                        "case_id": "7",
-                        "case_type_info": {
-                            "case_type_id": "7",
-                            "case_type_name": "业务分析优化服务"
-                        },
-                        "case_small_image": {
+                        "title": "业务分析优化服务",
+                        "image": {
                             "thumb": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg",
                             "soure": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg"
                         }
                     },
                     {
-                        "case_id": "8",
-                        "case_type_info": {
-                            "case_type_id": "8",
-                            "case_type_name": "移动/社交技术交流"
-                        },
-                        "case_small_image": {
+                        "title": "移动/社交技术交流",
+                        "image": {
                             "thumb": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg",
                             "soure": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg"
                         }

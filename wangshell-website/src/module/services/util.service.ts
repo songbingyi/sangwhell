@@ -1,9 +1,25 @@
 import { Injectable } from '@angular/core';
+import { KeyValue } from '../../model/key-value.model';
 
 @Injectable()
 export class UtilService {
 
   constructor() { }
+
+
+    /**
+     * @name 封装http请求参数，返回请求json
+     * @param args 需要封装的参数，以键值对形式传入
+     */
+    generateHttpRequestParams(...args: KeyValue[]): any {
+      let params: {} = {};
+      args.forEach(element => {
+          // params[element.name] = element.value; //不可用：undefined
+          // params[`element.name`] = element.value; //不可用：key值会被转为字符串，显示为element.name 
+          eval("params." + element.key + "='" + element.value + "'");
+      });
+      return params;
+  }
 
   /** @name 拨打客服电话  */
   callCustomerService() {

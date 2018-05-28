@@ -6,5 +6,5 @@ export class KeyValue {
     /** @name 值 */
     public value: string;
     /** @name 数据 */
-    public data: any;
+    public data?: any;
 }
