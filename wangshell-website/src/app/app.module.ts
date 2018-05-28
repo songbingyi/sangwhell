@@ -10,6 +10,7 @@ import { LocalStorageService } from '../module/services/local-storage.service';
 import { HttpService } from '../module/services/http.service';
 import { HttpModule } from '@angular/http';
 import { UtilService } from '../module/services/util.service';
+import { CommonHttpService } from '../module/http/common-http.service';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { UtilService } from '../module/services/util.service';
     HttpService,
     LocalStorageService,
     UtilService,
+    CommonHttpService,
   ],
   bootstrap: [AppComponent]
 })
