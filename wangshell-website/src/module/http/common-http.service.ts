@@ -32,18 +32,15 @@ export class CommonHttpService {
             if (status) { callback(d) } else { console.log(d) };
         });
     }
-        /**
-     * @name 03-获取数据信息
-     * @param request_type 请求类型（1-home）
+    
+    /**
+     * @name 03-获取首页广告
      * @param callback 回调
      */
-    getBannerList(request_type: string, callback) {
-        let params = this.utilService.generateHttpRequestParams(
-            { key: 'request_type', value: request_type }
-        );
-        this.httpService.httpPost(GET_BANNER_LIST, params, (d, status) => {
+    getBannerList(callback) {
+        this.httpService.httpPost(GET_BANNER_LIST, '', (d, status) => {
             if (status) { callback(d) } else { console.log(d) };
         });
     }
-    
+
 }
