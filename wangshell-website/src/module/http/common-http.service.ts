@@ -1,5 +1,5 @@
 import { HttpService } from "../services/http.service";
-import { GET_CLIENT_CONFIG, GET_DATA_INFO } from "../services/API";
+import { GET_CLIENT_CONFIG, GET_DATA_INFO, GET_BANNER_LIST } from "../services/API";
 import { Injectable } from "@angular/core";
 import { UtilService } from "../services/util.service";
 
@@ -32,4 +32,18 @@ export class CommonHttpService {
             if (status) { callback(d) } else { console.log(d) };
         });
     }
+        /**
+     * @name 03-获取数据信息
+     * @param request_type 请求类型（1-home）
+     * @param callback 回调
+     */
+    getBannerList(request_type: string, callback) {
+        let params = this.utilService.generateHttpRequestParams(
+            { key: 'request_type', value: request_type }
+        );
+        this.httpService.httpPost(GET_BANNER_LIST, params, (d, status) => {
+            if (status) { callback(d) } else { console.log(d) };
+        });
+    }
+    
 }

@@ -1,6 +1,7 @@
 import { Title } from '@angular/platform-browser';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { CommonHttpService } from '../../module/http/common-http.service';
 declare var Swiper;
 import * as $ from 'jquery';
 
@@ -11,8 +12,15 @@ import * as $ from 'jquery';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private title: Title, public router: Router) {
+  public homeData;
+  constructor(private title: Title, public router: Router,private commonService: CommonHttpService) {
     this.title.setTitle('上海汪壳网络科技有限公司');
+
+    commonService.getBannerList('1', (d) => {
+      /** @todo 需要显示数据 */
+      this.homeData = d.banner_list;
+      console.log(this.homeData[0].image.thumb+"333")
+    })
   }
 
   ngOnInit() {
