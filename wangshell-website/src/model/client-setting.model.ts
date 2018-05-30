@@ -13,7 +13,5 @@ export class ClientSettingModel {
     public contact_email: string;
     /** @name 地址 */
     public contact_address: string;
-    /** @name */
-    public contact_icp: string;
 
 }

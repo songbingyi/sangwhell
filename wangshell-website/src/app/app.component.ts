@@ -16,21 +16,23 @@ import { CommonHttpService } from '../module/http/common-http.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  /** @name clientsetting数据 */
-  public ClientConfigList:ClientSettingModel;
-  constructor(private router: Router, private commonHttpService: CommonHttpService, private localStorage: LocalStorageService) {
-    this.commonHttpService.getClientConfig((d)=>{
-      this.ClientConfigList =d[0].data;
-    })
 
-    // commonHttpService.getClientConfig((d) => {
-    //   let keyValeArray: KeyValue[] = d;
-    //   keyValeArray.forEach(element => {
-    //     if (element.key == 'client_setting') {
-    //       let clientSetting: ClientSettingModel = element.data;
-    //       localStorage.setCacheObject(keyClientSetting, clientSetting);
-    //     }
-    //   });
-    // });
+  /** @name clientsetting数据 */
+  public clientSetting: ClientSettingModel;
+
+  constructor(private router: Router, private commonHttpService: CommonHttpService, private localStorage: LocalStorageService) {
+    // this.commonHttpService.getClientConfig((d) => {
+    //   this.clientConfig = d[0].data;
+    // })
+
+    commonHttpService.getClientConfig((d) => {
+      let keyValeArray: KeyValue[] = d;
+      keyValeArray.forEach(element => {
+        if (element.key == 'client_setting') {
+          this.clientSetting = element.data;
+          localStorage.setCacheObject(keyClientSetting, this.clientSetting);
+        }
+      });
+    });
   }
 }

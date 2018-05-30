@@ -41,17 +41,17 @@
     </nav>
 </div>
 
-<footer class="web-footer" *ngIf="ClientConfigList">
+<footer class="web-footer" *ngIf="clientSetting">
     <p class="contact">
         <span>
-            <span class="address">{{ClientConfigList.contact_address}}</span>
-            <span class="email">{{ClientConfigList.contact_email}}</span>
+            <span class="address">{{clientSetting.contact_address}}</span>
+            <span class="email">{{clientSetting.contact_email}}</span>
             <span class="tel">
-                <a href="tel://17717458103">{{ClientConfigList.contact_number}}</a>
+                <a href="tel://17717458103">{{clientSetting.contact_number}}</a>
             </span>
         </span>
     </p>
     <p class="copyright">
-        <span>{{ClientConfigList.contact_icp}}</span>
+        <span>Copyright&copy;上海汪壳网络科技有限公司 版权所有 沪ICP备 18006224号-1</span>
     </p>
 </footer>
