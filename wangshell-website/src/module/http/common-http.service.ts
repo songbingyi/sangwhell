@@ -42,8 +42,12 @@ export class CommonHttpService {
             if (status) { callback(d) } else { console.log(d) };
         });
     }
+    /**
+     * @name 04-获取案例列表
+     * @param callback 回调
+     */
     getCaseList(callback) {
-        this.httpService.httpPost(GET_BANNER_LIST, '', (d, status) => {
+        this.httpService.httpPost(GET_CASE_LIST, '', (d, status) => {
             if (status) { callback(d) } else { console.log(d) };
         });
     }

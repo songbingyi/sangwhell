@@ -9,28 +9,19 @@
                 <dl>
                     <dt class="title">+ MENU +</dt>
                     <dd>
-                        <ul>
-                            <li class="active">
+                        <ul  *ngIf="CaseList && CaseList.length >0">
+                            <li class="active" *ngFor="let item of CaseList">
                                 <div class="svg-wrapper">
                                     <div id="text">
                                         <a href="#">
-                                            <span class="spot"></span>Daily Yoga</a>
+                                            <span class="spot"></span>{{item.case_name}}</a>
                                     </div>
                                     <svg height="40" width="100%" xmlns="http://www.w3.org/2000/svg">
                                         <rect id="shape" height="40" width="100%" />
                                     </svg>
                                 </div>
                             </li>
-                            <li>
-                                <div class="svg-wrapper">
-                                    <!-- <svg height="40" width="100%" xmlns="http://www.w3.org/2000/svg">
-                                        <rect id="shape" height="40" width="100%" />
-                                        <div id="text">
-                                        <a href="#"><span class="spot"></span>Vhouse</a>
-                                        </div>
-                                    </svg> -->
-                                </div>
-                            </li>
+                        
                         </ul>
                     </dd>
 
