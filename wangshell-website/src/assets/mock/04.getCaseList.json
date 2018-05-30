@@ -1,0 +1,21 @@
+{
+    "status": {
+        "succeed": "1"
+    },
+    "data": {
+        "case_list": [
+            {
+               "case_id": "0",
+               "case_name": "Daily Alaph" 
+            },
+            {
+               "case_id": "1",
+               "case_name": "Daily beta" 
+            },
+            {
+               "case_id": "2",
+               "case_name": "Daily omega" 
+            }
+        ]
+    }
+}

@@ -1,5 +1,5 @@
 import { HttpService } from "../services/http.service";
-import { GET_CLIENT_CONFIG, GET_DATA_INFO, GET_BANNER_LIST } from "../services/API";
+import { GET_CLIENT_CONFIG, GET_DATA_INFO, GET_BANNER_LIST, GET_CASE_LIST } from "../services/API";
 import { Injectable } from "@angular/core";
 import { UtilService } from "../services/util.service";
 
@@ -42,5 +42,11 @@ export class CommonHttpService {
             if (status) { callback(d) } else { console.log(d) };
         });
     }
+    getCaseList(callback) {
+        this.httpService.httpPost(GET_BANNER_LIST, '', (d, status) => {
+            if (status) { callback(d) } else { console.log(d) };
+        });
+    }
+    
 
 }
