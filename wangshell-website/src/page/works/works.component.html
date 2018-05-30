@@ -1,7 +1,8 @@
 <section class="wrapper">
-    <section class="works">
+    <section class="works" *ngIf="CaseDetail">
         <div class="works-banner-img">
-            <div class="img" style="background-image: url(../../assets/images/work-banner-temp-1.jpg)"></div>
+            <div class="img" 
+            [style.background-image]="'url(' + CaseDetail.case_name_image.thumb + ')'"></div>
             <div class="banner-box"></div>
         </div>
         <div class="content">
@@ -10,10 +11,12 @@
                     <dt class="title">+ MENU +</dt>
                     <dd>
                         <ul  *ngIf="CaseList && CaseList.length >0">
-                            <li class="active" *ngFor="let item of CaseList">
+                            <li class="active" *ngFor="let item of CaseList"
+                                (click)="onSelect(item.case_id)"  
+                            >
                                 <div class="svg-wrapper">
                                     <div id="text">
-                                        <a href="#">
+                                        <a href="">
                                             <span class="spot"></span>{{item.case_name}}</a>
                                     </div>
                                     <svg height="40" width="100%" xmlns="http://www.w3.org/2000/svg">
@@ -27,17 +30,15 @@
 
                 </dl>
             </div>
-            <div class="article">
+            <div class="article" >
                 <h1 class="title-en">
-                    <span>Daily Yoga</span>
+                    <span>{{CaseDetail.case_name_en}}</span>
                 </h1>
-                <h1 class="title-zh">每日瑜伽O2O订课平台系统</h1>
-                <article class="article-content">
-                    <p>每日瑜伽 O2O订课服务帮您找到最好最实惠的瑜伽场馆与教练，享受最贴心的瑜伽练习服务。</p>
-                    <p>基于微信公众号平台，我们从系统整体架构到业务逻辑流程分析，帮助每日瑜伽开启线上线下一体化运营。会员通过线上平台订课，快速对接最好最实惠的场馆和教练。结合O2O模式，教练自己可以将空闲时间在线上平台提供出来（教练闲时利用率）用于课程服务，会员可以在线上预约教练和空闲场馆。并以会员选择的场馆为链接点，在线下场馆中开启瑜伽课程学习活动。以在线形式完成场馆和教练的预约及课程支付。</p>
-                    <p>
-                        <img src="../../assets/images/work-temp-1.jpg" alt="">
-                    </p>
+                <h1 class="title-zh">{{CaseDetail.case_title}}</h1>
+                <article class="article-content"
+                [innerHTML]="CaseDetail.case_content">
+                   
+
                 </article>
             </div>
         </div>
