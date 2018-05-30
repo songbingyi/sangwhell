@@ -41,17 +41,17 @@
     </nav>
 </div>
 
-<footer class="web-footer">
+<footer class="web-footer" *ngIf="ClientConfigList">
     <p class="contact">
         <span>
-            <span class="address">上海市静安区愚园路608弄41号</span>
-            <span class="email">Email：info#wangshell.com</span>
+            <span class="address">{{ClientConfigList.contact_address}}</span>
+            <span class="email">{{ClientConfigList.contact_email}}</span>
             <span class="tel">
-                <a href="tel://17717458103">Tel：17717458103</a>
+                <a href="tel://17717458103">{{ClientConfigList.contact_number}}</a>
             </span>
         </span>
     </p>
     <p class="copyright">
-        <span>Copyright&copy;上海汪壳网络科技有限公司 版权所有 沪ICP备 XXXXXX号</span>
+        <span>{{ClientConfigList.contact_icp}}</span>
     </p>
 </footer>
