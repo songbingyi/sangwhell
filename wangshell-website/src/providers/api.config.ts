@@ -8,5 +8,6 @@ let apiConfig: IDictionary<string> = {
     'getBannerList'             : 'home/banner/getBannerList',
     'getCaseList'               : 'work/case/getCaseList',
     'getCaseDetail'             : 'work/case/getCaseDetail',
+    'getCollaborates'           : 'about/info/getCollaborates',
 };
 export { apiConfig }

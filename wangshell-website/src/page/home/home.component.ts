@@ -23,6 +23,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
+      /** @name 获取banner数据 */
     this.commonService.getBannerList((d) => {
       this.bannerList = d.banner_list;
       setTimeout(() => {

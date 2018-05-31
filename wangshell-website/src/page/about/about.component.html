@@ -7,15 +7,17 @@
             </div>
             <div class="client">
                 <ul>
-                    <li>
-                        <a href="#">
+                    <li *ngFor="let item of collaborateList">
+                        <a href="javascript:void(0)">
                             <span class="img">
-                                <img src="../../assets/images/CBA.jpg" alt="">
+                                <img 
+                                [src]="item.collaborate_image.thumb" 
+                                [alt]="item.collaborate_name">
                             </span>
-                            <span class="text">神州百事通</span>
+                            <span class="text">{{item.collaborate_name}}</span>
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#">
                             <span class="img">
                                 <img src="../../assets/images/DA.jpg" alt="">
@@ -102,7 +104,7 @@
                             </span>
                             <span class="text">西部文博会</span>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>

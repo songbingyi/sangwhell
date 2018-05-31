@@ -13,15 +13,22 @@ import { CaseDetail } from '../../model/case-detail.model'
 })
 export class WorksComponent implements OnInit {
 
+    /** @name 案例数据列表 */
   public CaseList: CaseListModel;
+
+    /** @name 案例详情数据列表 */
   public CaseDetailList;
+
+    /** @name 案例详情数据 */
   public CaseDetail: CaseDetail;
 
   constructor(private title: Title, private commonHttpService: CommonHttpService) {
     this.title.setTitle('案例展示 | 上海汪壳网络科技有限公司');
+      /** @name 获取案例数据列表 */
     commonHttpService.getCaseList(d => {
       this.CaseList = d.case_list;
     });
+      /** @name 获取案例详情 */
     commonHttpService.getCaseDetail(d => {
       this.CaseDetailList = d.case_info;
       this.CaseDetail = d.case_info[0];

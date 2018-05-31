@@ -1,5 +1,5 @@
 import { HttpService } from "../services/http.service";
-import { GET_CLIENT_CONFIG, GET_DATA_INFO, GET_BANNER_LIST, GET_CASE_LIST, GET_CASE_DETAIL} from "../services/API";
+import { GET_CLIENT_CONFIG, GET_DATA_INFO, GET_BANNER_LIST, GET_CASE_LIST, GET_CASE_DETAIL, GET_COLLABORATES } from "../services/API";
 import { Injectable } from "@angular/core";
 import { UtilService } from "../services/util.service";
 
@@ -32,7 +32,7 @@ export class CommonHttpService {
             if (status) { callback(d) } else { console.log(d) };
         });
     }
-    
+
     /**
      * @name 03-获取首页广告
      * @param callback 回调
@@ -55,9 +55,18 @@ export class CommonHttpService {
      * @name 05-获取案例详情
      * @param callback 回调
      */
-    getCaseDetail(callback){
-        this.httpService.httpPost(GET_CASE_DETAIL,'',(d, status) =>{
-            if(status) {callback(d) } else {console.log(d)}
+    getCaseDetail(callback) {
+        this.httpService.httpPost(GET_CASE_DETAIL, '', (d, status) => {
+            if (status) { callback(d) } else { console.log(d) }
+        });
+    }
+    /**
+         * @name 06-获取案例面板数据列表
+         * @param callback 回调
+         */
+    getCollaborates(callback) {
+        this.httpService.httpPost(GET_COLLABORATES, '', (d, status) => {
+            if (status) { callback(d) } else { console.log(d) }
         });
     }
 

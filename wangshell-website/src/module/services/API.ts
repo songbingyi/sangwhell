@@ -9,3 +9,6 @@ export const GET_BANNER_LIST = "getBannerList";
 export const GET_CASE_LIST = "getCaseList";
 /** @name 5-工作-获取案例详情 */
 export const GET_CASE_DETAIL = "getCaseDetail";
+/** @name 6-工作-获取案例面板数据列表 */
+export const GET_COLLABORATES = "getCollaborates";
+

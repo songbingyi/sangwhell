@@ -1,0 +1,81 @@
+{
+    "status": {
+        "succeed": "1"
+    },
+    "data": {
+        "collaborate_list": [
+            {
+                "collaborate_id": "1",
+                "collaborate_name": "神州百事通",
+                "collaborate_image": {
+                    "thumb": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/0B/4B/Cgo8PFTyeamAALQcAAC3J_RvBTo139.png",
+                    "soure": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/0B/4B/Cgo8PFTyeamAALQcAAC3J_RvBTo139.png"
+                },
+                "collaborate_selected_image": {
+                    "thumb": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/00/77/Cgo8PFTUXauAeNlYAABE12ZYmEU829.gif",
+                    "soure": "hhttps://www.lgstatic.com/thumbnail_300x300/image1/M00/00/77/Cgo8PFTUXauAeNlYAABE12ZYmEU829.gif"
+                }
+            },
+            {
+                "collaborate_id": "2",
+                "collaborate_name": "58同城",
+                "collaborate_image": {
+                    "thumb": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/00/77/Cgo8PFTUXauAeNlYAABE12ZYmEU829.gif",
+                    "soure": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/00/77/Cgo8PFTUXauAeNlYAABE12ZYmEU829.gif"
+                },
+                "collaborate_selected_image": {
+                    "thumb": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/00/77/Cgo8PFTUXauAeNlYAABE12ZYmEU829.gif",
+                    "soure": "hhttps://www.lgstatic.com/thumbnail_300x300/image1/M00/00/77/Cgo8PFTUXauAeNlYAABE12ZYmEU829.gif"
+                }
+            },
+            {
+                "collaborate_id": "3",
+                "collaborate_name": "可口可乐",
+                "collaborate_image": {
+                    "thumb": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/00/33/CgYXBlTUXI-AC08_AACIkHlny3Y866.jpg",
+                    "soure": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/00/33/CgYXBlTUXI-AC08_AACIkHlny3Y866.jpg"
+                },
+                "collaborate_selected_image": {
+                    "thumb": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/00/33/CgYXBlTUXI-AC08_AACIkHlny3Y866.jpg",
+                    "soure": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/00/33/CgYXBlTUXI-AC08_AACIkHlny3Y866.jpg"
+                }
+            },
+            {
+                "collaborate_id": "1",
+                "collaborate_name": "神州百事通",
+                "collaborate_image": {
+                    "thumb": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/0B/4B/Cgo8PFTyeamAALQcAAC3J_RvBTo139.png",
+                    "soure": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/0B/4B/Cgo8PFTyeamAALQcAAC3J_RvBTo139.png"
+                },
+                "collaborate_selected_image": {
+                    "thumb": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/00/77/Cgo8PFTUXauAeNlYAABE12ZYmEU829.gif",
+                    "soure": "hhttps://www.lgstatic.com/thumbnail_300x300/image1/M00/00/77/Cgo8PFTUXauAeNlYAABE12ZYmEU829.gif"
+                }
+            },
+            {
+                "collaborate_id": "2",
+                "collaborate_name": "58同城",
+                "collaborate_image": {
+                    "thumb": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/00/77/Cgo8PFTUXauAeNlYAABE12ZYmEU829.gif",
+                    "soure": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/00/77/Cgo8PFTUXauAeNlYAABE12ZYmEU829.gif"
+                },
+                "collaborate_selected_image": {
+                    "thumb": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/00/77/Cgo8PFTUXauAeNlYAABE12ZYmEU829.gif",
+                    "soure": "hhttps://www.lgstatic.com/thumbnail_300x300/image1/M00/00/77/Cgo8PFTUXauAeNlYAABE12ZYmEU829.gif"
+                }
+            },
+            {
+                "collaborate_id": "3",
+                "collaborate_name": "可口可乐",
+                "collaborate_image": {
+                    "thumb": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/00/33/CgYXBlTUXI-AC08_AACIkHlny3Y866.jpg",
+                    "soure": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/00/33/CgYXBlTUXI-AC08_AACIkHlny3Y866.jpg"
+                },
+                "collaborate_selected_image": {
+                    "thumb": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/00/33/CgYXBlTUXI-AC08_AACIkHlny3Y866.jpg",
+                    "soure": "https://www.lgstatic.com/thumbnail_300x300/image1/M00/00/33/CgYXBlTUXI-AC08_AACIkHlny3Y866.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -8,6 +8,7 @@ let mockApiConfig: IDictionary<string> = {
     'getBannerList'             : '03.getBannerList.json',
     'getCaseList'               : '04.getCaseList.json',
     'getCaseDetail'             : '05.getCaseDetail.json',
+    'getCollaborates'           : '06.getCollaborates.json',
 };
 
 export { mockApiConfig };
