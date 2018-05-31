@@ -6,8 +6,8 @@
         "banner_list": [
             {
                 "image": {
-                    "thumb": "http://imgstore.cdn.sogou.com/app/a/100540002/750740.jpg",
-                    "soure": "http://imgstore.cdn.sogou.com/app/a/100540002/750740.jpg"
+                    "thumb": "./assets/images/mock_banner_1.jpg",
+                    "soure": "./assets/images/mock_banner_1.jpg"
                 },
                 "link_info": {
                     "link_route": "",
@@ -17,29 +17,29 @@
                     {
                         "title": "APP定制开发",
                         "image": {
-                            "thumb": "https://flipermag.com/wp-content/uploads/2014/03/1394345745_22-640x640.jpeg",
-                            "soure": "https://flipermag.com/wp-content/uploads/2014/03/1394345745_22-640x640.jpeg"
+                            "thumb": "./assets/images/mock_banner1_image_1.jpg",
+                            "soure": "./assets/images/mock_banner1_image_1.jpg"
                         }
                     },
                     {
                         "title": "微信开发",
                         "image": {
-                            "thumb": "http://img0.imgtn.bdimg.com/it/u=4201715949,2293065985&fm=27&gp=0.jpg",
-                            "soure": "http://img0.imgtn.bdimg.com/it/u=4201715949,2293065985&fm=27&gp=0.jpg"
+                            "thumb": "./assets/images/mock_banner1_image_2.jpg",
+                            "soure": "./assets/images/mock_banner1_image_2.jpg"
                         }
                     },
                     {
                         "title": "微信小程序",
                         "image": {
-                            "thumb": "https://flipermag.com/wp-content/uploads/2014/03/1394345745_22-640x640.jpeg",
-                            "soure": "https://flipermag.com/wp-content/uploads/2014/03/1394345745_22-640x640.jpeg"
+                            "thumb": "./assets/images/mock_banner1_image_3.jpg",
+                            "soure": "./assets/images/mock_banner1_image_3.jpg"
                         }
                     },
                     {
                         "title": "移动网站开发",
                         "image": {
-                            "thumb": "https://flipermag.com/wp-content/uploads/2014/03/1394345745_22-640x640.jpeg",
-                            "soure": "https://flipermag.com/wp-content/uploads/2014/03/1394345745_22-640x640.jpeg"
+                            "thumb": "./assets/images/mock_banner1_image_4.jpg",
+                            "soure": "./assets/images/mock_banner1_image_4.jpg"
                         }
                     }
                 ],
@@ -50,8 +50,8 @@
             },
             {
                 "image": {
-                    "thumb": "http://img.zcool.cn/community/01f740564ea3506ac7251c94bb4c53.jpg",
-                    "soure": "http://img.zcool.cn/community/01f740564ea3506ac7251c94bb4c53.jpg"
+                    "thumb": "./assets/images/mock_banner_2.jpg",
+                    "soure": "./assets/images/mock_banner_2.jpg"
                 },
                 "link_info": {
                     "link_route": "",
@@ -61,29 +61,29 @@
                     {
                         "title": "移动咨询解决方案",
                         "image": {
-                            "thumb": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg",
-                            "soure": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg"
+                            "thumb": "./assets/images/mock_banner2_image_1.jpg",
+                            "soure": "./assets/images/mock_banner2_image_1.jpg"
                         }
                     },
                     {
                         "title": "开发部署方案可行性",
                         "image": {
-                            "thumb": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg",
-                            "soure": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg"
+                            "thumb": "./assets/images/mock_banner2_image_2.jpg",
+                            "soure": "./assets/images/mock_banner2_image_2.jpg"
                         }
                     },
                     {
                         "title": "业务分析优化服务",
                         "image": {
-                            "thumb": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg",
-                            "soure": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg"
+                            "thumb": "./assets/images/mock_banner2_image_3.jpg",
+                            "soure": "./assets/images/mock_banner2_image_3.jpg"
                         }
                     },
                     {
                         "title": "移动/社交技术交流",
                         "image": {
-                            "thumb": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg",
-                            "soure": "http://www.archcollege.com/wp-content/uploads/2017/10/1508142851340602.jpg"
+                            "thumb": "./assets/images/mock_banner2_image_4.jpg",
+                            "soure": "./assets/images/mock_banner2_image_4.jpg"
                         }
                     }
                 ],
