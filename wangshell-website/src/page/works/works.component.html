@@ -16,7 +16,7 @@
                             >
                                 <div class="svg-wrapper">
                                     <div id="text">
-                                        <a href="">
+                                        <a href="javascript:void(0)">
                                             <span class="spot"></span>{{item.case_name}}</a>
                                     </div>
                                     <svg height="40" width="100%" xmlns="http://www.w3.org/2000/svg">
@@ -43,8 +43,8 @@
             </div>
         </div>
         <div class="page">
-            <a href="#">PREV</a>
-            <a href="#">NEXT</a>
+            <a href="javascript:void(0)" (click)="ChangePage(CaseDetail.case_id,-1)">PREV</a>
+            <a href="javascript:void(0)" (click)="ChangePage(CaseDetail.case_id,1)">NEXT</a>
         </div>
     </section>
 </section>
