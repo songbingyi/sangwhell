@@ -56,10 +56,10 @@ export class WorksComponent implements OnInit {
   ChangePage(n: string,c: string): void {
     var current_id = parseInt(n)+parseInt(c);
     if(current_id > this.CaseDetailList.length){
-      current_id = this.CaseDetailList.length;
-    }
+      current_id = 1;
+    } 
     if(current_id == 0){
-      current_id =1
+      current_id =3
     }
     current_id--;
     this.CaseDetail = this.CaseDetailList[current_id];
