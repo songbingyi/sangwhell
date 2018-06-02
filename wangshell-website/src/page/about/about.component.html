@@ -10,9 +10,7 @@
                     <li *ngFor="let item of collaborateList">
                         <a href="javascript:void(0)">
                             <span class="img">
-                                <img 
-                                [src]="item.collaborate_image.thumb" 
-                                [alt]="item.collaborate_name">
+                                <img [src]="item.collaborate_image.thumb" [alt]="item.collaborate_name">
                             </span>
                             <span class="text">{{item.collaborate_name}}</span>
                         </a>
@@ -22,3 +20,8 @@
         </div>
     </section>
 </section>
+
+<div *ngIf="!isLoadSuccess" class="loading-box">
+    <div class="loading-img">
+    </div>
+</div>

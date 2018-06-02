@@ -15,6 +15,8 @@ export class HomeComponent implements OnInit {
 
   /** @name banner数据 */
   public bannerList: BannerInfoModel[];
+  /** @name 页面是否加载成功 */
+  public isLoadSuccess: boolean = false;
 
   constructor(private title: Title, public router: Router,
     private commonService: CommonHttpService) {
@@ -37,6 +39,7 @@ export class HomeComponent implements OnInit {
           },
         });
       }, 1);
+      this.isLoadSuccess = true;
     })
     $('html,body').removeClass('h-show');
   }

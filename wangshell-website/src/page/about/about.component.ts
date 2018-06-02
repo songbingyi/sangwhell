@@ -13,11 +13,12 @@ import { REQUEST_TYPE_ABOUT_US } from '../../app/app.global';
 })
 export class AboutComponent implements OnInit {
 
-   /** @name 关于我们数据 */
-  public aboutData:DataInfoModel;
-
-   /** @name 关于案例面板数据列表 */
-  public collaborateList:Collaborates;
+  /** @name 关于我们数据 */
+  public aboutData: DataInfoModel;
+  /** @name 关于案例面板数据列表 */
+  public collaborateList: Collaborates;
+  /** @name 页面是否加载成功 */
+  public isLoadSuccess: boolean = false;
 
   constructor(private title: Title, private commonService: CommonHttpService) {
     this.title.setTitle('关于我们 | 上海汪壳网络科技有限公司');
@@ -25,14 +26,15 @@ export class AboutComponent implements OnInit {
     commonService.getDataInfo(REQUEST_TYPE_ABOUT_US, (d) => {
       /** @todo 需要显示数据 */
       this.aboutData = d.data_value;
+      this.isLoadSuccess = true;
     })
 
-      /** @name 获取案例面板详情数据 */
-    commonService.getCollaborates(d=>{
+    /** @name 获取案例面板详情数据 */
+    commonService.getCollaborates(d => {
       this.collaborateList = d.collaborate_list
     })
   }
- 
+
 
   ngOnInit() {
     $('html,body').removeClass('h-show');

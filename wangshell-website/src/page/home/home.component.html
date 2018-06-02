@@ -13,19 +13,18 @@
                         </a>
                     </li>
                     <li class="hex" *ngFor="let imageList of item.image_list;">
-                        <a class="hexIn" href="#" 
-                        [style.background-image]="'url(' + imageList.image.thumb + ')'">
+                        <a class="hexIn" href="#" [style.background-image]="'url(' + imageList.image.thumb + ')'">
                             <h1>{{imageList.title}}</h1>
                         </a>
                     </li>
-                   
+
                 </ul>
                 <div class="index-text">
                     <p class="text-zh">
                         <span [innerHTML]="item.introduction_info.introduction_cn"></span>
                     </p>
                     <p class="text-en">
-                            <span [innerHTML]="item.introduction_info.introduction_en"></span>
+                        <span [innerHTML]="item.introduction_info.introduction_en"></span>
 
                     </p>
                 </div>
@@ -36,8 +35,8 @@
         <div class="swiper-pagination"></div>
     </div>
 </section>
-<!-- <div class="loading-box">
-        <div class="loading-img">
-        </div>
+
+<div *ngIf="!isLoadSuccess" class="loading-box">
+    <div class="loading-img">
     </div>
-    <div class="popScreenH"></div> -->
+</div>

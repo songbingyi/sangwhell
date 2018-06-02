@@ -20,6 +20,8 @@ export class WorksComponent implements OnInit {
   public caseDetail: CaseDetail;
   /** @name 当前选中的案例下标，默认选中第一个 */
   private currentSelectCaseIndex: number = 0;
+  /** @name 页面是否加载成功 */
+  public isLoadSuccess: boolean = false;
 
   constructor(private title: Title, private commonHttpService: CommonHttpService) {
     this.title.setTitle('案例展示 | 上海汪壳网络科技有限公司');
@@ -31,7 +33,8 @@ export class WorksComponent implements OnInit {
     commonHttpService.getCaseDetail(d => {
       this.caseDetailList = d.case_info;
       this.caseDetail = d.case_info[this.currentSelectCaseIndex];
-    })
+      this.isLoadSuccess = true;
+    });
     setTimeout(() => {
       $('div.sub-menu ul li:first-child').addClass('active');
     }, 1);
@@ -47,6 +50,15 @@ export class WorksComponent implements OnInit {
         $(this).addClass('active');
       });
     }, 1);
+
+    // setTimeout(() => {
+    //   let self = this;
+    //   document.onreadystatechange = function () {
+    //     if (document.readyState == "complete") {
+    //       console.log('isLoadSuccess -> ' + self.isLoadSuccess);
+    //     }
+    //   };
+    // }, 1);
   }
 
   /**
