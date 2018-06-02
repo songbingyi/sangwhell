@@ -1,8 +1,7 @@
 <section class="wrapper">
-    <section class="works" *ngIf="CaseDetail">
+    <section class="works" *ngIf="caseDetail">
         <div class="works-banner-img">
-            <div class="img" 
-            [style.background-image]="'url(' + CaseDetail.case_name_image.thumb + ')'"></div>
+            <div class="img" [style.background-image]="'url(' + caseDetail.case_index_image.thumb + ')'"></div>
             <div class="banner-box"></div>
         </div>
         <div class="content">
@@ -10,10 +9,8 @@
                 <dl>
                     <dt class="title">+ MENU +</dt>
                     <dd>
-                        <ul  *ngIf="CaseList && CaseList.length >0">
-                            <li class="active" *ngFor="let item of CaseList"
-                                (click)="onSelect(item.case_id)"  
-                            >
+                        <ul *ngIf="CaseList && CaseList.length >0">
+                            <li class="active" *ngFor="let item of CaseList" (click)="onSelect(item.case_id)">
                                 <div class="svg-wrapper">
                                     <div id="text">
                                         <a href="javascript:void(0)">
@@ -24,27 +21,27 @@
                                     </svg>
                                 </div>
                             </li>
-                        
+
                         </ul>
                     </dd>
-
                 </dl>
             </div>
-            <div class="article" >
+            <div class="article">
                 <h1 class="title-en">
-                    <span>{{CaseDetail.case_name_en}}</span>
+                    <span>{{caseDetail.case_name_en}}</span>
                 </h1>
-                <h1 class="title-zh">{{CaseDetail.case_title}}</h1>
-                <article class="article-content"
-                [innerHTML]="CaseDetail.case_content">
-                   
-
+                <h1 class="title-zh">{{caseDetail.case_title}}</h1>
+                <article class="article-content" [innerHTML]="caseDetail.case_content">
                 </article>
             </div>
         </div>
+        <!-- <div class="page">
+            <a href="javascript:void(0)" (click)="ChangePage(caseDetail.case_id, -1)">PREV</a>
+            <a href="javascript:void(0)" (click)="ChangePage(caseDetail.case_id, 1)">NEXT</a>
+        </div> -->
         <div class="page">
-            <a href="javascript:void(0)" (click)="ChangePage(CaseDetail.case_id,-1)">PREV</a>
-            <a href="javascript:void(0)" (click)="ChangePage(CaseDetail.case_id,1)">NEXT</a>
+            <a href="javascript:void(0)" (click)="changePage(false)">PREV</a>
+            <a href="javascript:void(0)" (click)="changePage(true)">NEXT</a>
         </div>
     </section>
 </section>

@@ -8,7 +8,7 @@
                 "case_id": "1",
                 "case_name": "每日瑜伽",
                 "case_name_en": "Daily Yoga",
-                "case_name_image": {
+                "case_index_image": {
                     "thumb": "./assets/images/mock_case_image_banner_daily_yoga.jpg",
                     "soure": "./assets/images/mock_case_image_banner_daily_yoga.jpg"
                 },
@@ -19,7 +19,7 @@
                 "case_id": "2",
                 "case_name": "DomusAurea",
                 "case_name_en": "DomusAurea",
-                "case_name_image": {
+                "case_index_image": {
                     "thumb": "./assets/images/mock_case_image_banner_domus_aurea.png",
                     "soure": "./assets/images/mock_case_image_banner_domus_aurea.png"
                 },
@@ -29,7 +29,7 @@
                 "case_id": "3",
                 "case_name": "晶行财富",
                 "case_name_en": "JH Wealth",
-                "case_name_image": {
+                "case_index_image": {
                     "thumb": "./assets/images/mock_case_image_banner_jh_wealth.jpg",
                     "soure": "./assets/images/mock_case_image_banner_jh_wealth.jpg"
                 },
@@ -39,7 +39,7 @@
                 "case_id": "4",
                 "case_name": "woyeeh",
                 "case_name_en": "woyeeh",
-                "case_name_image": {
+                "case_index_image": {
                     "thumb": "./assets/images/mock_case_image_banner_woyeeh.jpg",
                     "soure": "./assets/images/mock_case_image_banner_woyeeh.jpg"
                 },
@@ -49,7 +49,7 @@
                 "case_id": "5",
                 "case_name": "vhouse",
                 "case_name_en": "vhouse",
-                "case_name_image": {
+                "case_index_image": {
                     "thumb": "./assets/images/mock_case_image_banner_vhouse.jpg",
                     "soure": "./assets/images/mock_case_image_banner_vhouse.jpg"
                 },
@@ -59,7 +59,7 @@
                 "case_id": "6",
                 "case_name": "chanel",
                 "case_name_en": "chanel",
-                "case_name_image": {
+                "case_index_image": {
                     "thumb": "./assets/images/mock_case_image_banner_chanel.jpg",
                     "soure": "./assets/images/mock_case_image_banner_chanel.jpg"
                 },
@@ -69,7 +69,7 @@
                 "case_id": "7",
                 "case_name": "太平人寿",
                 "case_name_en": "Taiping Life",
-                "case_name_image": {
+                "case_index_image": {
                     "thumb": "./assets/images/mock_case_image_banner_taiping_life.jpg",
                     "soure": "./assets/images/mock_case_image_banner_taiping_life.jpg"
                 },
@@ -79,7 +79,7 @@
                 "case_id": "8",
                 "case_name": "七宝池",
                 "case_name_en": "Elysium Jewelry",
-                "case_name_image": {
+                "case_index_image": {
                     "thumb": "./assets/images/mock_case_image_banner_elyslum_jewelry.jpg",
                     "soure": "./assets/images/mock_case_image_banner_elyslum_jewelry.jpg"
                 },
@@ -89,7 +89,7 @@
                 "case_id": "9",
                 "case_name": "LEX绿豆圈",
                 "case_name_en": "Daily Yoga",
-                "case_name_image": {
+                "case_index_image": {
                     "thumb": "./assets/images/mock_case_image_banner_lex_client.jpg",
                     "soure": "./assets/images/mock_case_image_banner_lex_client.jpg"
                 },
@@ -99,7 +99,7 @@
                 "case_id": "10",
                 "case_name": "LEX律箭",
                 "case_name_en": "Daily Yoga",
-                "case_name_image": {
+                "case_index_image": {
                     "thumb": "./assets/images/mock_case_image_banner_lex_oa.jpg",
                     "soure": "./assets/images/mock_case_image_banner_lex_oa.jpg"
                 },
@@ -110,7 +110,7 @@
                 "case_id": "11",
                 "case_name": "ChinaBestAll",
                 "case_name_en": "ChinaBestAll",
-                "case_name_image": {
+                "case_index_image": {
                     "thumb": "./assets/images/mock_case_image_banner_cba.jpg",
                     "soure": "./assets/images/mock_case_image_banner_cba.jpg"
                 },
