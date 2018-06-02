@@ -5,8 +5,8 @@ import { WorksComponent } from '../page/works/works.component';
 import { AboutComponent } from '../page/about/about.component';
 
 const appRoutes: Routes = [
-    { path: '', redirectTo: '/home', pathMatch: 'full' },
-    { path: 'home', component: HomeComponent,  },
+    { path: '', redirectTo: '/index', pathMatch: 'full' },
+    { path: 'index', component: HomeComponent,  },
     { path: 'works', component: WorksComponent, },
     { path: 'about', component: AboutComponent, },
 ];

@@ -108,8 +108,8 @@
             },
             {
                 "case_id": "11",
-                "case_name": "CBA",
-                "case_name_en": "CBA",
+                "case_name": "ChinaBestAll",
+                "case_name_en": "ChinaBestAll",
                 "case_name_image": {
                     "thumb": "./assets/images/mock_case_image_banner_cba.jpg",
                     "soure": "./assets/images/mock_case_image_banner_cba.jpg"
