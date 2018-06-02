@@ -10,7 +10,7 @@
                     <dt class="title">+ MENU +</dt>
                     <dd>
                         <ul *ngIf="CaseList && CaseList.length >0">
-                            <li class="active" *ngFor="let item of CaseList" (click)="onSelect(item.case_id)">
+                            <li *ngFor="let item of CaseList" (click)="onSelect(item.case_id)">
                                 <div class="svg-wrapper">
                                     <div id="text">
                                         <a href="javascript:void(0)">

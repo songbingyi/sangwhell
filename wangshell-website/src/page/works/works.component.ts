@@ -32,10 +32,21 @@ export class WorksComponent implements OnInit {
       this.caseDetailList = d.case_info;
       this.caseDetail = d.case_info[this.currentSelectCaseIndex];
     })
+    setTimeout(() => {
+      $('div.sub-menu ul li:first-child').addClass('active');
+    }, 1);
   }
 
   ngOnInit() {
     $('html,body').addClass('h-show');
+
+    setTimeout(() => {
+      $('div.sub-menu ul li').click(function () {
+        console.log('click');
+        $('div.sub-menu ul li').removeClass('active');
+        $(this).addClass('active');
+      });
+    }, 1);
   }
 
   /**
@@ -48,6 +59,7 @@ export class WorksComponent implements OnInit {
       if (l[i].case_id == id) {
         this.currentSelectCaseIndex = i;
         this.caseDetail = l[i];
+        this.setWindowBackTop();
       }
     }
   }
@@ -68,6 +80,12 @@ export class WorksComponent implements OnInit {
     }
     console.log('currentSelectCaseIndex -> ' + this.currentSelectCaseIndex);
     this.caseDetail = this.caseDetailList[this.currentSelectCaseIndex];
+    this.setWindowBackTop();
+  }
+
+  /** @name 回到页面顶部 */
+  private setWindowBackTop() {
+    window.scrollTo(0, 0);
   }
 
   /**
