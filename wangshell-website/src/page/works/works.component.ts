@@ -37,7 +37,7 @@ export class WorksComponent implements OnInit {
     });
     setTimeout(() => {
       $('div.sub-menu ul li:first-child').addClass('active');
-    }, 1);
+    }, 500);
   }
 
   ngOnInit() {
@@ -49,16 +49,7 @@ export class WorksComponent implements OnInit {
         $('div.sub-menu ul li').removeClass('active');
         $(this).addClass('active');
       });
-    }, 1);
-
-    // setTimeout(() => {
-    //   let self = this;
-    //   document.onreadystatechange = function () {
-    //     if (document.readyState == "complete") {
-    //       console.log('isLoadSuccess -> ' + self.isLoadSuccess);
-    //     }
-    //   };
-    // }, 1);
+    }, 500);
   }
 
   /**

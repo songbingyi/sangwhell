@@ -41,6 +41,7 @@ html {
 }
 
 body {
+    font-family: "PingFang SC", "PingFangSC-Regular", Helvetica, Arial, "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     background-color: #fff;
     margin: 0;
     height: 100%;
@@ -693,6 +694,9 @@ body.h-show {
     overflow: visible;
 }
 
+.copyright a{
+ color: black;       
+}
 @keyframes textanm {
     0% {
         transform: translateX(-202%);
