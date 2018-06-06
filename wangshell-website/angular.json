@@ -23,9 +23,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/swiper.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-1.11.2.min.js",
+              "src/assets/js/loading.js",
+              "src/assets/js/back-to-top.js",
+              "src/assets/js/swiper.min.js",
+              "src/assets/js/menu.js"
+            ]
           },
           "configurations": {
             "production": {
