@@ -2,32 +2,32 @@
 
 @font-face {
     font-family: GothamProRegular;
-    src: url("../fonts/GothamProRegular.eot");
-    src: url("../fonts/GothamProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProRegular.woff") format("woff"), url("../fonts/GothamProRegular.ttf") format("truetype");
+    src: url("/assets/fonts/GothamProRegular.eot");
+    src: url("/assets/fonts/GothamProRegular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/GothamProRegular.woff") format("woff"), url("/assets/fonts/GothamProRegular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: GothamProMedium;
-    src: url("../fonts/GothamProMedium.eot");
-    src: url("../fonts/GothamProMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProMedium.woff") format("woff"), url("../fonts/GothamProMedium.ttf") format("truetype");
+    src: url("/assets/fonts/GothamProMedium.eot");
+    src: url("/assets/fonts/GothamProMedium.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/GothamProMedium.woff") format("woff"), url("/assets/fonts/GothamProMedium.ttf") format("truetype");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: GothamProBold;
-    src: url("../fonts/GothamProBold.eot");
-    src: url("../fonts/GothamProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProBold.woff") format("woff"), url("../fonts/GothamProBold.ttf") format("truetype");
+    src: url("/assets/fonts/GothamProBold.eot");
+    src: url("/assets/fonts/GothamProBold.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/GothamProBold.woff") format("woff"), url("/assets/fonts/GothamProBold.ttf") format("truetype");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: GothamProBlack;
-    src: url("../fonts/GothamProBlack.eot");
-    src: url("../fonts/GothamProBlack.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProBlack.woff") format("woff"), url("../fonts/GothamProBlack.ttf") format("truetype");
+    src: url("/assets/fonts/GothamProBlack.eot");
+    src: url("/assets/fonts/GothamProBlack.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/GothamProBlack.woff") format("woff"), url("/assets/fonts/GothamProBlack.ttf") format("truetype");
     font-weight: normal;
     font-style: normal
 }
@@ -665,7 +665,7 @@ article.article-content img {
     left: 50%;
     margin-top: -67px;
     margin-left: -60px;
-    background-image: url(../images/website-top-logo.png);
+    background-image: url(/assets/images/website-top-logo.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -720,10 +720,10 @@ body.h-show {
         display: none;
     }
     .index-banner-img-1 .img {
-        background-image: url(../images/index-banner-1.jpg);
+        background-image: url(/assets/images/index-banner-1.jpg);
     }
     .index-banner-img-2 .img {
-        background-image: url(../images/index-banner-2.jpg);
+        background-image: url(/assets/images/index-banner-2.jpg);
     }
     .swiper-button-next,
     .swiper-button-prev {
@@ -1030,7 +1030,7 @@ body.h-show {
         position: absolute;
         right: 3vw;
         bottom: -10vh;
-        background-image: url(../images/banner-box-2.png);
+        background-image: url(/assets/images/banner-box-2.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -1152,7 +1152,7 @@ body.h-show {
         width: 100%;
     }
     .about-content {
-        background-image: url(../images/about-banner.png);
+        background-image: url(/assets/images/about-banner.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -1413,10 +1413,10 @@ body.h-show {
         overflow: hidden;
     }
     .index-banner-img-1 .img {
-        background-image: url(../images/index-banner-1.jpg);
+        background-image: url(/assets/images/index-banner-1.jpg);
     }
     .index-banner-img-2 .img {
-        background-image: url(../images/index-banner-2.jpg);
+        background-image: url(/assets/images/index-banner-2.jpg);
     }
     .index-banner-img .img {
         width: 100%;
@@ -1577,7 +1577,7 @@ body.h-show {
         position: absolute;
         right: 2rem;
         bottom: -3rem;
-        background-image: url(../images/banner-box-2.png);
+        background-image: url(/assets/images/banner-box-2.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -1626,7 +1626,7 @@ body.h-show {
         width: 100%;
     }
     .about-content .about-text {
-        background-image: url(../images/about-banner-mobile.jpg);
+        background-image: url(/assets/images/about-banner-mobile.jpg);
         background-repeat: no-repeat;
         background-position: center bottom;
         background-size: cover;
@@ -1708,7 +1708,7 @@ body.h-show {
         width: 100%;
         height: 100%;
         background: rgba(0, 0, 0, 1);
-        background-image: url(../images/device-rotation.png);
+        background-image: url(/assets/images/device-rotation.png);
         background-repeat: no-repeat;
         background-position: 50% 50%;
     }
