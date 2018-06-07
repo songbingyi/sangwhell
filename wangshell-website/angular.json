@@ -23,8 +23,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "src/assets/css/swiper.min.css"
+              "src/styles.css"
             ],
             "scripts": [
               "src/assets/js/jquery-1.11.2.min.js",
