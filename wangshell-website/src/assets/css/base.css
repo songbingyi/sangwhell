@@ -636,13 +636,13 @@ article.article-content img {
     transform: rotate(-45deg)
 }
 
-.hexgrid .hex a {
+.hexgrid .hex div {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 120%;
 }
 
-.hexgrid .hex a:hover {
+.hexgrid .hex div:hover {
     background-size: 140%;
     transition: background-size 5s;
 }
@@ -1497,7 +1497,7 @@ body.h-show {
         float: left;
         width: 50%;
     }
-    .hexgrid li a {
+    .hexgrid li div {
         background-color: #5F9ADF;
         color: #fff;
         display: flex;
@@ -1509,7 +1509,7 @@ body.h-show {
         flex-direction: column;
         text-align: center;
     }
-    .hexgrid li a h1 {
+    .hexgrid li div h1 {
         font-size: 1.5rem;
         margin: 1rem;
     }
@@ -1680,7 +1680,7 @@ body.h-show {
         font-size: 1.2em;
         color: #999;
     }
-    .hexgrid .hex a {
+    .hexgrid .hex div {
         position: relative;
     }
     .hexgrid .hex a::before {
@@ -1694,8 +1694,8 @@ body.h-show {
         position: absolute;
         z-index: 1;
     }
-    .hexgrid .hex a h1,
-    .hexgrid .hex a p {
+    .hexgrid .hex div h1,
+    .hexgrid .hex div p {
         z-index: 10;
         position: relative;
     }

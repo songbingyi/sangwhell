@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 
 import { WorksRoutingModule } from './works-routing.module';
 import { WorksComponent } from './works.component';
-import { CaseDetailComponent } from '../case-detail/case-detail.component';
 
 @NgModule({
   imports: [
@@ -12,7 +11,6 @@ import { CaseDetailComponent } from '../case-detail/case-detail.component';
   ],
   declarations: [
     WorksComponent,
-    CaseDetailComponent,
   ]
 })
 export class WorksModule { }
