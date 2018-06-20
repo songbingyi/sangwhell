@@ -4,6 +4,7 @@ import * as $ from 'jquery';
 import { CaseListModel } from '../../model/case-list.model';
 import { CommonHttpService } from '../../module/http/common-http.service';
 import { CaseDetail } from '../../model/case-detail.model'
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-works',
@@ -23,7 +24,8 @@ export class WorksComponent implements OnInit {
   /** @name 页面是否加载成功 */
   public isLoadSuccess: boolean = false;
 
-  constructor(private title: Title, private commonHttpService: CommonHttpService) {
+  constructor(private title: Title, private commonHttpService: CommonHttpService,
+    private router: Router, ) {
     this.title.setTitle('案例展示 | 上海汪壳网络科技有限公司');
     /** @name 获取案例数据列表 */
     commonHttpService.getCaseList(d => {
@@ -62,9 +64,12 @@ export class WorksComponent implements OnInit {
       if (l[i].case_id == id) {
         this.currentSelectCaseIndex = i;
         this.caseDetail = l[i];
-        this.setWindowBackTop();
       }
     }
+    // { id: this.caseDetail.case_id }
+    // this.router.navigate(['/case-detail', this.caseDetail.case_id]);
+    // this.router.navigate(['/case-detail', { id: this.caseDetail.case_id }]);
+    this.setWindowBackTop();
   }
 
   /**

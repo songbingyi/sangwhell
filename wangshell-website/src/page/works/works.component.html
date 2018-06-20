@@ -10,6 +10,8 @@
                     <dt class="title">+ MENU +</dt>
                     <dd>
                         <ul *ngIf="CaseList && CaseList.length >0">
+                                <!-- [routerLink]="['/case-detail', item.case_id]"  [routerLink]="[item.case_id]" routerLinkActive="active"-->
+                                <!-- [routerLink]="['/case-detail', item.case_id]" routerLinkActive="active" -->
                             <li *ngFor="let item of CaseList" (click)="onSelect(item.case_id)">
                                 <div class="svg-wrapper">
                                     <div id="text">
@@ -33,6 +35,7 @@
                 <h1 class="title-zh">{{caseDetail.case_title}}</h1>
                 <article class="article-content" [innerHTML]="caseDetail.case_content">
                 </article>
+                <!-- <router-outlet></router-outlet> -->
             </div>
         </div>
         <!-- <div class="page">
