@@ -8,8 +8,8 @@
                 "collaborate_id": "1",
                 "collaborate_name": "神州百事通",
                 "collaborate_image": {
-                    "thumb": "../assets/images/CBA.jpg",
-                    "soure": "../assets/images/CBA.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/CBA.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/CBA.jpg"
                 },
                 "collaborate_selected_image": {
                     "thumb": "",
@@ -20,8 +20,8 @@
                 "collaborate_id": "2",
                 "collaborate_name": "多摩仕奥瑞",
                 "collaborate_image": {
-                    "thumb": "../assets/images/DA.jpg",
-                    "soure": "../assets/images/DA.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/DA.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/DA.jpg"
                 },
                 "collaborate_selected_image": {
                     "thumb": "",
@@ -32,8 +32,8 @@
                 "collaborate_id": "3",
                 "collaborate_name": "香奈儿",
                 "collaborate_image": {
-                    "thumb": "../assets/images/chanel.jpg",
-                    "soure": "../assets/images/chanel.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/chanel.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/chanel.jpg"
                 },
                 "collaborate_selected_image": {
                     "thumb": "",
@@ -44,8 +44,8 @@
                 "collaborate_id": "4",
                 "collaborate_name": "晶享金融",
                 "collaborate_image": {
-                    "thumb": "../assets/images/jh.jpg",
-                    "soure": "../assets/images/jp.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/jh.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/jp.jpg"
                 },
                 "collaborate_selected_image": {
                     "thumb": "",
@@ -56,8 +56,8 @@
                 "collaborate_id": "5",
                 "collaborate_name": "LEX律豆圈",
                 "collaborate_image": {
-                    "thumb": "../assets/images/ldq.jpg",
-                    "soure": "../assets/images/ldq.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/ldq.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/ldq.jpg"
                 },
                 "collaborate_selected_image": {
                     "thumb": "",
@@ -68,8 +68,8 @@
                 "collaborate_id": "6",
                 "collaborate_name": "LEX律箭",
                 "collaborate_image": {
-                    "thumb": "../assets/images/lj.jpg",
-                    "soure": "../assets/images/lj.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/lj.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/lj.jpg"
                 },
                 "collaborate_selected_image": {
                     "thumb": "",
@@ -80,8 +80,8 @@
                 "collaborate_id": "7",
                 "collaborate_name": "每日瑜伽",
                 "collaborate_image": {
-                    "thumb": "../assets/images/mryj.jpg",
-                    "soure": "../assets/images/mryj.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/mryj.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/mryj.jpg"
                 },
                 "collaborate_selected_image": {
                     "thumb": "",
@@ -92,8 +92,8 @@
                 "collaborate_id": "8",
                 "collaborate_name": "喔耶",
                 "collaborate_image": {
-                    "thumb": "../assets/images/oye.jpg",
-                    "soure": "../assets/images/oye.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/oye.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/oye.jpg"
                 },
                 "collaborate_selected_image": {
                     "thumb": "",
@@ -104,8 +104,8 @@
                 "collaborate_id": "9",
                 "collaborate_name": "Vhouse",
                 "collaborate_image": {
-                    "thumb": "../assets/images/vhouse.jpg",
-                    "soure": "../assets/images/vhouse.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/vhouse.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/vhouse.jpg"
                 },
                 "collaborate_selected_image": {
                     "thumb": "",
@@ -116,8 +116,8 @@
                 "collaborate_id": "10",
                 "collaborate_name": "七宝池",
                 "collaborate_image": {
-                    "thumb": "../assets/images/qbc.jpg",
-                    "soure": "../assets/images/qbc.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/qbc.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/qbc.jpg"
                 },
                 "collaborate_selected_image": {
                     "thumb": "",
@@ -128,8 +128,8 @@
                 "collaborate_id": "11",
                 "collaborate_name": "太平人寿",
                 "collaborate_image": {
-                    "thumb": "../assets/images/tprs.jpg",
-                    "soure": "../assets/images/tprs.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/tprs.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/tprs.jpg"
                 },
                 "collaborate_selected_image": {
                     "thumb": "",
@@ -140,8 +140,8 @@
                 "collaborate_id": "12",
                 "collaborate_name": "西部文博会",
                 "collaborate_image": {
-                    "thumb": "../assets/images/xbwbh.jpg",
-                    "soure": "../assets/images/xbwbh.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/xbwbh.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/xbwbh.jpg"
                 },
                 "collaborate_selected_image": {
                     "thumb": "",

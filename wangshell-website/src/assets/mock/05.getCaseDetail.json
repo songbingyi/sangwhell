@@ -9,113 +9,113 @@
                 "case_name": "每日瑜伽",
                 "case_name_en": "Daily Yoga",
                 "case_index_image": {
-                    "thumb": "./assets/images/mock_case_image_banner_daily_yoga.jpg",
-                    "soure": "./assets/images/mock_case_image_banner_daily_yoga.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/mock_case_image_banner_daily_yoga.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/mock_case_image_banner_daily_yoga.jpg"
                 },
                 "case_title": "每日瑜伽O2O订课平台系统",
-                "case_content": "<p>每日瑜伽 O2O订课服务帮您找到最好最实惠的瑜伽场馆与教练，享受最贴心的瑜伽练习服务。</p><p>上海汪壳网络科技有限公司 作为每日瑜伽O2O订课平台系统的解决方案提供商，基于微信公众号平台，我们从系统整体架构到业务逻辑流程分析，帮助每日瑜伽开启线上线下一体化运营。会员通过线上平台订课，快速对接最好最实惠的场馆和教练。结合O2O模式，教练自己可以将空闲时间在线上平台提供出来（教练闲时利用率）用于课程服务，会员可以在线上预约教练和空闲场馆。并以会员选择的场馆为链接点，在线下场馆中开启瑜伽课程学习活动。</p><p>以在线形式完成场馆和教练的预约及课程支付。</p><img src='./assets/images/mock_case_image_content_daily_yoga_01.jpg'><img src='./assets/images/mock_case_image_content_daily_yoga_02.jpg'><img src='./assets/images/mock_case_image_content_daily_yoga_03.jpg'><img src='./assets/images/mock_case_image_content_daily_yoga_04.jpg'>"
+                "case_content": "<p>每日瑜伽 O2O订课服务帮您找到最好最实惠的瑜伽场馆与教练，享受最贴心的瑜伽练习服务。</p><p>上海汪壳网络科技有限公司 作为每日瑜伽O2O订课平台系统的解决方案提供商，基于微信公众号平台，我们从系统整体架构到业务逻辑流程分析，帮助每日瑜伽开启线上线下一体化运营。会员通过线上平台订课，快速对接最好最实惠的场馆和教练。结合O2O模式，教练自己可以将空闲时间在线上平台提供出来（教练闲时利用率）用于课程服务，会员可以在线上预约教练和空闲场馆。并以会员选择的场馆为链接点，在线下场馆中开启瑜伽课程学习活动。</p><p>以在线形式完成场馆和教练的预约及课程支付。</p><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_daily_yoga_01.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_daily_yoga_02.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_daily_yoga_03.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_daily_yoga_04.jpg'>"
             },
             {
                 "case_id": "2",
                 "case_name": "DomusAurea",
                 "case_name_en": "DomusAurea",
                 "case_index_image": {
-                    "thumb": "./assets/images/mock_case_image_banner_domus_aurea.png",
-                    "soure": "./assets/images/mock_case_image_banner_domus_aurea.png"
+                    "thumb": "http://oss.wangshell.com/assets/images/mock_case_image_banner_domus_aurea.png",
+                    "soure": "http://oss.wangshell.com/assets/images/mock_case_image_banner_domus_aurea.png"
                 },
                 "case_title": "多摩仕奥瑞家居物联网智能展厅系统",
-                "case_content": "<p>搭载上海汪壳网络科技有限公司iBeacon技术的DomusAurea家居博物馆在今年1月开幕。全馆4层楼面全部布置了iBeacon传感器，依托这些传感器我们可以收集顾客在现场的情景及意向数据。也可以为每一位到场的客户提供室内导航、新产品推荐、优惠信息推送等个性化服务。依靠iBeacon技术的推送，让客户拥有更丰富、安全和便捷的消费体验。</p><p>同时，我们帮助DomusAurea实现App在线电商，展厅iPad商品整体管理及展示，以及全平台实现展厅360度全景展示。</p><p>Pad系统：iPad展示系统整合了所有产品的展示，实现同系及相同颜色产品的分类，会员管理权限及不同等级的产品展示权限。具备强大的管理后台，拥有完善的产品分类管理系统。</p><p>在线电商系统：App在线电商系统，用户可以直接在手机上购买喜爱的家居产品，并在线支付订单和查询货物状态，拥有一套完整的订单及销售管理系统。同时iBeacon系统将根据用户的实时位置向手机推送图文、音/视频，并实时统计用户的行为意向数据。</p><p>iBeacon系统：App作为用户终端，我们在全场布置的iBeacon系统，根据用户的实时地理位置记录客流通过数据，位置驻留时间数据，各个层面热点图，还有细到SKU层级的用户洞察热点图，以此提供业务部门更加精准的用户意向数据分析。</p><img src='../assets/images/mock_case_image_content_domus_aurea_01.jpg'><img src='../assets/images/mock_case_image_content_domus_aurea_02.jpg'><img src='../assets/images/mock_case_image_content_domus_aurea_03.jpg'><img src='../assets/images/mock_case_image_content_domus_aurea_04.jpg'>"
+                "case_content": "<p>搭载上海汪壳网络科技有限公司iBeacon技术的DomusAurea家居博物馆在今年1月开幕。全馆4层楼面全部布置了iBeacon传感器，依托这些传感器我们可以收集顾客在现场的情景及意向数据。也可以为每一位到场的客户提供室内导航、新产品推荐、优惠信息推送等个性化服务。依靠iBeacon技术的推送，让客户拥有更丰富、安全和便捷的消费体验。</p><p>同时，我们帮助DomusAurea实现App在线电商，展厅iPad商品整体管理及展示，以及全平台实现展厅360度全景展示。</p><p>Pad系统：iPad展示系统整合了所有产品的展示，实现同系及相同颜色产品的分类，会员管理权限及不同等级的产品展示权限。具备强大的管理后台，拥有完善的产品分类管理系统。</p><p>在线电商系统：App在线电商系统，用户可以直接在手机上购买喜爱的家居产品，并在线支付订单和查询货物状态，拥有一套完整的订单及销售管理系统。同时iBeacon系统将根据用户的实时位置向手机推送图文、音/视频，并实时统计用户的行为意向数据。</p><p>iBeacon系统：App作为用户终端，我们在全场布置的iBeacon系统，根据用户的实时地理位置记录客流通过数据，位置驻留时间数据，各个层面热点图，还有细到SKU层级的用户洞察热点图，以此提供业务部门更加精准的用户意向数据分析。</p><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_domus_aurea_01.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_domus_aurea_02.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_domus_aurea_03.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_domus_aurea_04.jpg'>"
             },{
                 "case_id": "3",
                 "case_name": "晶行财富",
                 "case_name_en": "JH Wealth",
                 "case_index_image": {
-                    "thumb": "./assets/images/mock_case_image_banner_jh_wealth.jpg",
-                    "soure": "./assets/images/mock_case_image_banner_jh_wealth.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/mock_case_image_banner_jh_wealth.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/mock_case_image_banner_jh_wealth.jpg"
                 },
                 "case_title": "晶行财富P2P金融网站系统",
-                "case_content": "<p><strong>晶行财富</strong>（上海）投资有限公司由一支曾从业银行、证券、供应链管理工作，以及丰富的金融及互联网经验的团队组成,是上海浦东国际金融学会理事单位，专注于银行票据及衍生类产品的开发与市场拓展。</p><p>上海汪壳网络科技有限公司作为晶行财富P2P金融系统的解决方案提供商，基于WEB平台开发，从整体UI设计到程序接口开发，以及业务逻辑程序的实现，帮助晶行财富完成所有理财产品的线上业务流程及购买，并最终将程序接入金融管理平台。实现晶行财富金融系统的整体上线。</p><img src='./assets/images/mock_case_image_content_jh_wealth_01.jpg'><img src='./assets/images/mock_case_image_content_jh_wealth_02.jpg'><img src='./assets/images/mock_case_image_content_jh_wealth_03.jpg'><img src='./assets/images/mock_case_image_content_jh_wealth_04.jpg'>"
+                "case_content": "<p><strong>晶行财富</strong>（上海）投资有限公司由一支曾从业银行、证券、供应链管理工作，以及丰富的金融及互联网经验的团队组成,是上海浦东国际金融学会理事单位，专注于银行票据及衍生类产品的开发与市场拓展。</p><p>上海汪壳网络科技有限公司作为晶行财富P2P金融系统的解决方案提供商，基于WEB平台开发，从整体UI设计到程序接口开发，以及业务逻辑程序的实现，帮助晶行财富完成所有理财产品的线上业务流程及购买，并最终将程序接入金融管理平台。实现晶行财富金融系统的整体上线。</p><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_jh_wealth_01.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_jh_wealth_02.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_jh_wealth_03.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_jh_wealth_04.jpg'>"
             },{
                 "case_id": "4",
                 "case_name": "woyeeh",
                 "case_name_en": "Woyeeh",
                 "case_index_image": {
-                    "thumb": "./assets/images/mock_case_image_banner_woyeeh.jpg",
-                    "soure": "./assets/images/mock_case_image_banner_woyeeh.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/mock_case_image_banner_woyeeh.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/mock_case_image_banner_woyeeh.jpg"
                 },
                 "case_title": "垂直类营销供需威客平台－－喔耶",
-                "case_content": "<p>喔耶 是国内首个精英企业和营销匠人供需平台，精准连接企业雇主和拥有营销技能的匠人与服务商品牌。以用户自运营形式，通过发布需求、自动筛选匹配、实时互动、项目跟踪、双向互评等服务流程，获取精准的目标匠人服务，帮助企业更清晰展示自己的营销需求。雇主可以雇佣营销匠人来完成微信营销、网络推广、活动策划、APP开发与运营、品牌策划与诊断、创意广告、视频等工作，让营销变简单。</p><p>上海汪壳网络科技有限公司从系统整体架构到业务逻辑流程分析，每一步都从使用者的角度考虑进行产品架构设计，实现雇主（需求方）和匠人（接单方）的需求对接、推荐展示、接单、即时通讯交流、结算、验收、评价体系以及平台自主匹配等。</p><p>我们和喔耶团队一起设计整理产品模式，架构业务逻辑及盈利模式，完成喔耶产品平台成功上线发布，并持续迭代后续产品，将产品用户体验做到极致。</p><img src='./assets/images/mock_case_image_content_woyeeh_01.jpg'><img src='./assets/images/mock_case_image_content_woyeeh_02.jpg'><img src='./assets/images/mock_case_image_content_woyeeh_03.jpg'><img src='./assets/images/mock_case_image_content_woyeeh_04.jpg'><img src='./assets/images/mock_case_image_content_woyeeh_05.jpg'><img src='./assets/images/mock_case_image_content_woyeeh_06.jpg'><img src='./assets/images/mock_case_image_content_woyeeh_07.jpg'><img src='./assets/images/mock_case_image_content_woyeeh_08.jpg'><img src='./assets/images/mock_case_image_content_woyeeh_09.jpg'>"
+                "case_content": "<p>喔耶 是国内首个精英企业和营销匠人供需平台，精准连接企业雇主和拥有营销技能的匠人与服务商品牌。以用户自运营形式，通过发布需求、自动筛选匹配、实时互动、项目跟踪、双向互评等服务流程，获取精准的目标匠人服务，帮助企业更清晰展示自己的营销需求。雇主可以雇佣营销匠人来完成微信营销、网络推广、活动策划、APP开发与运营、品牌策划与诊断、创意广告、视频等工作，让营销变简单。</p><p>上海汪壳网络科技有限公司从系统整体架构到业务逻辑流程分析，每一步都从使用者的角度考虑进行产品架构设计，实现雇主（需求方）和匠人（接单方）的需求对接、推荐展示、接单、即时通讯交流、结算、验收、评价体系以及平台自主匹配等。</p><p>我们和喔耶团队一起设计整理产品模式，架构业务逻辑及盈利模式，完成喔耶产品平台成功上线发布，并持续迭代后续产品，将产品用户体验做到极致。</p><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_woyeeh_01.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_woyeeh_02.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_woyeeh_03.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_woyeeh_04.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_woyeeh_05.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_woyeeh_06.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_woyeeh_07.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_woyeeh_08.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_woyeeh_09.jpg'>"
             },{
                 "case_id": "5",
                 "case_name": "vhouse",
                 "case_name_en": "Vhouse",
                 "case_index_image": {
-                    "thumb": "./assets/images/mock_case_image_banner_vhouse.jpg",
-                    "soure": "./assets/images/mock_case_image_banner_vhouse.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/mock_case_image_banner_vhouse.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/mock_case_image_banner_vhouse.jpg"
                 },
                 "case_title": "VHouse家文化的精英创客社群 —— UGC模式的线上系统",
-                "case_content": "<p><strong>VHouse：</strong>以分享经济、跨界融合和资源链接三要素为核心，形成成员间超强链接，解决创业过程中遇到的难题。一方面，作为精英创客社群，VHouse首先提出“家文化”的价值观，倡导“信任、分享、互助、成长”的行为准则，成员间交流以信任为基础，在分享交流中收获资源。</p><p><strong>UGC</strong>（User Generated Content）指用户原创内容，也就是用户生成内容的意思。即用户自发将自己原创的内容通过互联网平台进行展示或者提供给其他用户。</p><p>上海汪壳网络科技有限公司作为VHouse的解决方案提供商，基于微信公众号平台，在产品设计中充分融入UGC模式，并提出相应的业务逻辑解决方案。使创客用户在创业方面发挥最大的主动性，帮助VHouse开启线上线下一体化运营。</p><p>会员通过线上平台互动互帮互助，快速对接创业需求。结合O2O模式，可以在线上传场地信息申请成为VHouse联盟场地，把自己闲时的场地提供出来（提升闲时场地的利用率），成为链接其他成员的一个点。以场地为链接点，在线下“house”中发起各种主题的交流学习活动，令成员更有归属感，并提升了彼此的信任度。</p><p>成员可以通过平台预约报名参加交流活动，以及使用线上平台的闲置联盟场地资源发起创业相关交流活动。并在积分机制和信用机制的规则中引导用户体验的行为习惯。</p><img src='./assets/images/mock_case_image_content_vhouse_01.jpg'><img src='./assets/images/mock_case_image_content_vhouse_02.jpg'><img src='./assets/images/mock_case_image_content_vhouse_03.jpg'><img src='./assets/images/mock_case_image_content_vhouse_04.jpg'>"
+                "case_content": "<p><strong>VHouse：</strong>以分享经济、跨界融合和资源链接三要素为核心，形成成员间超强链接，解决创业过程中遇到的难题。一方面，作为精英创客社群，VHouse首先提出“家文化”的价值观，倡导“信任、分享、互助、成长”的行为准则，成员间交流以信任为基础，在分享交流中收获资源。</p><p><strong>UGC</strong>（User Generated Content）指用户原创内容，也就是用户生成内容的意思。即用户自发将自己原创的内容通过互联网平台进行展示或者提供给其他用户。</p><p>上海汪壳网络科技有限公司作为VHouse的解决方案提供商，基于微信公众号平台，在产品设计中充分融入UGC模式，并提出相应的业务逻辑解决方案。使创客用户在创业方面发挥最大的主动性，帮助VHouse开启线上线下一体化运营。</p><p>会员通过线上平台互动互帮互助，快速对接创业需求。结合O2O模式，可以在线上传场地信息申请成为VHouse联盟场地，把自己闲时的场地提供出来（提升闲时场地的利用率），成为链接其他成员的一个点。以场地为链接点，在线下“house”中发起各种主题的交流学习活动，令成员更有归属感，并提升了彼此的信任度。</p><p>成员可以通过平台预约报名参加交流活动，以及使用线上平台的闲置联盟场地资源发起创业相关交流活动。并在积分机制和信用机制的规则中引导用户体验的行为习惯。</p><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_vhouse_01.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_vhouse_02.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_vhouse_03.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_vhouse_04.jpg'>"
             },{
                 "case_id": "6",
                 "case_name": "chanel",
                 "case_name_en": "CHANEL",
                 "case_index_image": {
-                    "thumb": "./assets/images/mock_case_image_banner_chanel.jpg",
-                    "soure": "./assets/images/mock_case_image_banner_chanel.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/mock_case_image_banner_chanel.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/mock_case_image_banner_chanel.jpg"
                 },
                 "case_title": "CHANEL亚太区门店产品推送及用户体验数据系统",
-                "case_content": "<p>上海汪壳网络科技有限公司为CHANEL亚太区106家门店实现每2小时实时推送更新数据，并且每个门店推送数据均不相同，实现各门店数据差异自动推送更新的庞大管理系统。</p><p>前端应用产品收集统计用户行为操作记录（意向数据），根据要求自动生成Report，该数据帮助CHANEL亚太区业务部门获取并精准分析各地区用户喜好及广告投放量。</p><p>上海汪壳网络科技有限公司在为CHANEL的数据安全保护方面做到了零风险控制。实现设备的底层控制，通过系统后台可以自动清除部分或所有数据，充分保护了CHANEL的产品数据。</p><img src='./assets/images/mock_case_image_content_chanel_01.jpg'><img src='./assets/images/mock_case_image_content_chanel_02.jpg'><img src='./assets/images/mock_case_image_content_chanel_03.jpg'><img src='./assets/images/mock_case_image_content_chanel_04.jpg'><img src='./assets/images/mock_case_image_content_chanel_05.jpg'><img src='./assets/images/mock_case_image_content_chanel_06.jpg'>"
+                "case_content": "<p>上海汪壳网络科技有限公司为CHANEL亚太区106家门店实现每2小时实时推送更新数据，并且每个门店推送数据均不相同，实现各门店数据差异自动推送更新的庞大管理系统。</p><p>前端应用产品收集统计用户行为操作记录（意向数据），根据要求自动生成Report，该数据帮助CHANEL亚太区业务部门获取并精准分析各地区用户喜好及广告投放量。</p><p>上海汪壳网络科技有限公司在为CHANEL的数据安全保护方面做到了零风险控制。实现设备的底层控制，通过系统后台可以自动清除部分或所有数据，充分保护了CHANEL的产品数据。</p><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_chanel_01.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_chanel_02.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_chanel_03.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_chanel_04.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_chanel_05.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_chanel_06.jpg'>"
             },{
                 "case_id": "7",
                 "case_name": "太平人寿",
                 "case_name_en": "Taiping Life",
                 "case_index_image": {
-                    "thumb": "./assets/images/mock_case_image_banner_taiping_life.jpg",
-                    "soure": "./assets/images/mock_case_image_banner_taiping_life.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/mock_case_image_banner_taiping_life.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/mock_case_image_banner_taiping_life.jpg"
                 },
                 "case_title": "中国太平保险集团整体网站及微信端改造项目",
-                "case_content": "<p>我们为中国太平保险集团的整体网站及微信端，进行全面设计改造及用户体验改造；</p><p>重新定义并规范中国太平保险整体线上平台的用户体验设计及使用体验标准（UE）；</p><p>同时，我们为太平保险整体网站及微信端的交易平台进行部分技术开发和实施。</p><img src='./assets/images/mock_case_image_content_taiping_life_01.jpg'><img src='./assets/images/mock_case_image_content_taiping_life_02.jpg'><img src='./assets/images/mock_case_image_content_taiping_life_03.jpg'>"
+                "case_content": "<p>我们为中国太平保险集团的整体网站及微信端，进行全面设计改造及用户体验改造；</p><p>重新定义并规范中国太平保险整体线上平台的用户体验设计及使用体验标准（UE）；</p><p>同时，我们为太平保险整体网站及微信端的交易平台进行部分技术开发和实施。</p><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_taiping_life_01.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_taiping_life_02.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_taiping_life_03.jpg'>"
             },{
                 "case_id": "8",
                 "case_name": "七宝池",
                 "case_name_en": "Elysium Jewelry",
                 "case_index_image": {
-                    "thumb": "./assets/images/mock_case_image_banner_elyslum_jewelry.jpg",
-                    "soure": "./assets/images/mock_case_image_banner_elyslum_jewelry.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/mock_case_image_banner_elyslum_jewelry.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/mock_case_image_banner_elyslum_jewelry.jpg"
                 },
                 "case_title": "七宝池珠宝在线电商App及HTML5网站",
-                "case_content": "<p>App在线电商系统，用户可以直接在手机上购买喜爱的珠宝产品，便捷美观的使用操作体验，并可在线支付订单和查询货物状态，拥有一套完整的订单、销售管理系统及客服管理系统。</p><img src='./assets/images/mock_case_image_content_elyslum_jewelry_01.jpg'><img src='./assets/images/mock_case_image_content_elyslum_jewelry_02.jpg'><img src='./assets/images/mock_case_image_content_elyslum_jewelry_03.jpg'>"
+                "case_content": "<p>App在线电商系统，用户可以直接在手机上购买喜爱的珠宝产品，便捷美观的使用操作体验，并可在线支付订单和查询货物状态，拥有一套完整的订单、销售管理系统及客服管理系统。</p><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_elyslum_jewelry_01.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_elyslum_jewelry_02.jpg'><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_elyslum_jewelry_03.jpg'>"
             },{
                 "case_id": "9",
                 "case_name": "LEX绿豆圈",
                 "case_name_en": "LEX",
                 "case_index_image": {
-                    "thumb": "./assets/images/mock_case_image_banner_lex_client.jpg",
-                    "soure": "./assets/images/mock_case_image_banner_lex_client.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/mock_case_image_banner_lex_client.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/mock_case_image_banner_lex_client.jpg"
                 },
                 "case_title": "LEX绿豆圈-架起用户与律师之间的桥梁",
-                "case_content": "<p>该产品旨在建立全国执业律师数据库，让企业根据自身的法律需求，给律师进行经纬度的划分并做画像，平台根据画像为企业推荐合适的律师。</p><p>我们设计整理了产品框架及业务逻辑、为其规划了盈利模式，该产品已与2018年3月上线苹果商店及各大安卓市场。</p><img src='./assets/images/mock_case_image_content_lex_client.jpg'>"
+                "case_content": "<p>该产品旨在建立全国执业律师数据库，让企业根据自身的法律需求，给律师进行经纬度的划分并做画像，平台根据画像为企业推荐合适的律师。</p><p>我们设计整理了产品框架及业务逻辑、为其规划了盈利模式，该产品已与2018年3月上线苹果商店及各大安卓市场。</p><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_lex_client.jpg'>"
             },{
                 "case_id": "10",
                 "case_name": "LEX律箭",
                 "case_name_en": "LEX OA",
                 "case_index_image": {
-                    "thumb": "./assets/images/mock_case_image_banner_lex_oa.jpg",
-                    "soure": "./assets/images/mock_case_image_banner_lex_oa.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/mock_case_image_banner_lex_oa.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/mock_case_image_banner_lex_oa.jpg"
                 },
                 "case_title": "LEX律箭-律师的案件管理系统",
-                "case_content": "<p>一款SAAS模式的律师案件项目管理软件，以项目任务管理为核心、通过团队协作、可视化服务过程、各类效率工具提升律师的工作效率，降低律师服务成本。</p><p>我们设计了产品框架及业务逻辑、为其规划了盈利模式，该产品已于2018年3月上线。</p><p>线上：规划和设计完善的产品架构及模式，并落地实现；线下：建立会员体验中心，用互联网思维创新内容和资源，并实现线上平台的整合；</p><p>同时，我们作为LEX的战略规划角色，和LEX一起建立互联网产品、运营和市场团队，帮助团队和产品共同成长。</p><img src='./assets/images/mock_case_image_content_lex_oa.jpg'>"
+                "case_content": "<p>一款SAAS模式的律师案件项目管理软件，以项目任务管理为核心、通过团队协作、可视化服务过程、各类效率工具提升律师的工作效率，降低律师服务成本。</p><p>我们设计了产品框架及业务逻辑、为其规划了盈利模式，该产品已于2018年3月上线。</p><p>线上：规划和设计完善的产品架构及模式，并落地实现；线下：建立会员体验中心，用互联网思维创新内容和资源，并实现线上平台的整合；</p><p>同时，我们作为LEX的战略规划角色，和LEX一起建立互联网产品、运营和市场团队，帮助团队和产品共同成长。</p><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_lex_oa.jpg'>"
             },
             {
                 "case_id": "11",
                 "case_name": "ChinaBestAll",
                 "case_name_en": "ChinaBestAll",
                 "case_index_image": {
-                    "thumb": "./assets/images/mock_case_image_banner_cba.jpg",
-                    "soure": "./assets/images/mock_case_image_banner_cba.jpg"
+                    "thumb": "http://oss.wangshell.com/assets/images/mock_case_image_banner_cba.jpg",
+                    "soure": "http://oss.wangshell.com/assets/images/mock_case_image_banner_cba.jpg"
                 },
                 "case_title": "ChinaBestAll-中国资讯指南,服务于来中外国人,为其提供基础的政府服务",
-                "case_content": "<p>由于越来越外国人来访中国,该产品旨在为他们提供基础性的政府服务、旅居中国资讯指南及城市生活服务、主要功能包括:相关政策资讯、签证办理服务、即时翻译、搬家服务、求职服务等。</p><p>我们与外专局共同设计了产品框架及业务逻辑,为其规划了产品的开发、实施、上线的整个流程。</p><p></p><img src='./assets/images/mock_case_image_content_cba.jpg'>"
+                "case_content": "<p>由于越来越外国人来访中国,该产品旨在为他们提供基础性的政府服务、旅居中国资讯指南及城市生活服务、主要功能包括:相关政策资讯、签证办理服务、即时翻译、搬家服务、求职服务等。</p><p>我们与外专局共同设计了产品框架及业务逻辑,为其规划了产品的开发、实施、上线的整个流程。</p><p></p><img src='http://oss.wangshell.com/assets/images/mock_case_image_content_cba.jpg'>"
             }
         ]
     }

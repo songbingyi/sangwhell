@@ -6,7 +6,8 @@ let appConfig = {
   version   : "v1.0",
   salt_key  : SALT_KEY,
   url       : "",
-  prefix    : "../assets/mock/",
+  // prefix    : "../assets/mock/",
+  prefix    : "http://oss.wangshell.com/assets/mock/",
   api       : APP_SERVE_URL,
   production: false
 };
