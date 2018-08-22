@@ -42,5 +42,10 @@ export class HomeComponent implements OnInit {
       this.isLoadSuccess = true;
     })
     $('html,body').removeClass('h-show');
+
+    // setTimeout(() => {
+    //   $('body').removeClass("navhover");
+    // }, 300);
+    
   }
 }

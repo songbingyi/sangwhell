@@ -351,18 +351,7 @@ body.navhover .sidebar {
     color: #000;
 }
 
-.sidebar ul li a div {
-    margin: 0 auto;
-    writing-mode: vertical-lr;
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    transform: rotate(180deg);
-    -webkit-transition: all .5s cubic-bezier(0.6, 0, 0.5, 1);
-    -moz-transition: all .5s cubic-bezier(0.6, 0, 0.5, 1);
-    transition: all .5s cubic-bezier(0.6, 0, 0.5, 1);
-}
+
 
 .wrapper {
     width: 100%;
@@ -778,7 +767,30 @@ body.h-show {
         background-color: #000;
         transform: translateX(102%);
     }
-    .sidebar ul li a:hover div {
+
+    .sidebardiv {
+        margin: 0 auto;
+        writing-mode: vertical-lr;
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+        -webkit-transition: all .5s cubic-bezier(0.6, 0, 0.5, 1);
+        -moz-transition: all .5s cubic-bezier(0.6, 0, 0.5, 1);
+        transition: all .5s cubic-bezier(0.6, 0, 0.5, 1);
+    }
+    .sidebardiv1 {
+        margin: 0 auto;
+        writing-mode: vertical-lr;
+    }
+   .sidebardivani {
+    margin: 0 auto;
+    writing-mode: vertical-lr;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
         opacity: 0;
         -webkit-transform: translateX(3vw) rotate(180deg);
         -moz-transform: translateX(3vw) rotate(180deg);
@@ -786,7 +798,7 @@ body.h-show {
         -o-transform: translateX(3vw) rotate(180deg);
         transform: translateX(3vw) rotate(180deg);
     }
-    .sidebar ul li a:after {
+    .backtoroll:after {
         content: attr(data-text);
         position: absolute;
         right: -8px;
@@ -803,14 +815,45 @@ body.h-show {
         -webkit-transition: all .5s cubic-bezier(0.6, 0, 0.5, 1);
         -moz-transition: all .5s cubic-bezier(0.6, 0, 0.5, 1);
         transition: all .5s cubic-bezier(0.6, 0, 0.5, 1);
-    }
-    .sidebar ul li a:hover:after {
+    } 
+
+    .backtoroll:hover:after {
         -webkit-transform: translateX(0);
         -moz-transform: translateX(0);
         -ms-transform: translateX(0);
         -o-transform: translateX(0);
         transform: translateX(0);
+    }
+
+    .backtoroll1:after {
+        content: attr(data-text);
+        position: absolute;
+        right: -8px;
+        top: 30px;
+        color: #000;
+        font-family: GothamProBlack;
+        font-size: 96px;
+        line-height: 66px;
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+        transform: translateX(100%);
+        -webkit-transition: all .2s cubic-bezier(0.6, 0, 0.5, 1);
+        -moz-transition: all .2s cubic-bezier(0.6, 0, 0.5, 1);
+        transition: all .2s cubic-bezier(0.6, 0, 0.5, 1);
     } 
+
+    .backtoroll1:hover:after {
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+
+
     footer.web-footer p>span {
         display: block;
         position: relative;
